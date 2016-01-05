@@ -1,0 +1,23 @@
+After the repository was deleted
+
+do this:
+
+cvieho@CVIEHOW4 MINGW64 ~/testbox (master)
+$ git remote rm origin
+
+cvieho@CVIEHOW4 MINGW64 ~/testbox (master)
+$ git remote add origin https://github.com/cviehoff/testbox.git
+
+cvieho@CVIEHOW4 MINGW64 ~/testbox (master)
+$ git push -u origin master
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (13/13), 1.03 KiB | 0 bytes/s, done.
+Total 13 (delta 2), reused 0 (delta 0)
+To https://github.com/cviehoff/testbox.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+cvieho@CVIEHOW4 MINGW64 ~/testbox (master)
+$
